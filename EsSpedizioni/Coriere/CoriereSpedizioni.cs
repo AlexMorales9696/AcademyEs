@@ -20,10 +20,7 @@ using System.Threading.Tasks;
                 Sped = new List<Spedizione>();
             }
 
-        public void CancellaTutteSpedizioni()
-        {
-            
-        }
+        
         public void AddSpedizione(Spedizione nuovaSpedizione)
         {
                 
@@ -50,6 +47,10 @@ using System.Threading.Tasks;
             Sped.Clear();
 
          }
+
+       
+
+
     }
 }
 

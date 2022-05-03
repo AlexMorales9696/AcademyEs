@@ -21,4 +21,5 @@ namespace EsSpedizioni
         public override double PrintIngombro() => Altezza * Lunghezza;
         
     }
+
 }

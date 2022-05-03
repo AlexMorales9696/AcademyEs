@@ -22,8 +22,11 @@ Console.WriteLine(Environment.NewLine);
 Console.WriteLine(corriere3.GetSpedizioni());
 Console.WriteLine($"con un totale di ingombro di {corriere3.GetTotalIngombro()}");
 //CancellaTutteSpedizioni
-corriere3.CancellaTutteSpedizioni();
+/*Console.WriteLine("vuoi cercare la tua spedizione ? inserisci il tuo IdSpedizione");
+var cerca  = Console.ReadLine();
+ carca.EqualsS(corriere3.)*/
 Console.WriteLine("******************************************************");
+corriere3.EliminaSPedizioniCorriere();
 Console.WriteLine("lista Spedizione di corriere");
 Console.WriteLine(Environment.NewLine);
 Console.WriteLine(corriere3.GetSpedizioni());

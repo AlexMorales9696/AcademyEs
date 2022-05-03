@@ -19,11 +19,15 @@
 
 
         }
+        
 
-      //  public  double  Valorew(int valore);
+        public  double  Valorew(Spedizione s )
+        {
+            return s.Valore;
+        }
         public abstract double PrintIngombro();
 
-        public Boolean Equals( Spedizione sped1, Spedizione sped2)
+        public Boolean EqualsS( Spedizione sped1, Spedizione sped2)
         {
             if (sped1.IdSpedizione.Equals(sped2.IdSpedizione))
                 return true;
